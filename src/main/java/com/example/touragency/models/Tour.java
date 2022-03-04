@@ -12,7 +12,9 @@ import java.util.Date;
 @Table(name = "tour_tasks")
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class Tour {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")

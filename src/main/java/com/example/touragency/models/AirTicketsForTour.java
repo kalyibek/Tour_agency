@@ -12,7 +12,9 @@ import java.util.Date;
 @Table(name = "air_ticket_for_tour")
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class AirTicketsForTour {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")

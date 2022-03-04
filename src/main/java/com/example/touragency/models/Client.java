@@ -11,7 +11,9 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+
 public class Client {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name ="id")

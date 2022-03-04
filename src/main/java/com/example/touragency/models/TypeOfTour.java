@@ -11,7 +11,9 @@ import javax.persistence.*;
 @Table(name = "tour_type")
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class TypeOfTour {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")

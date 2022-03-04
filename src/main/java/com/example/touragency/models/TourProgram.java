@@ -11,8 +11,9 @@ import javax.persistence.*;
 @Table(name = "tour_program")
 @AllArgsConstructor
 @NoArgsConstructor
-// Перечеть основных мероприятий тура
+
 public class TourProgram {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")

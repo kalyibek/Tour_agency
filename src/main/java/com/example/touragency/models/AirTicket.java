@@ -10,7 +10,9 @@ import javax.persistence.*;
 @Table(name = "air_ticket")
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class AirTicket {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")

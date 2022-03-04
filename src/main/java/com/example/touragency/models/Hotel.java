@@ -11,7 +11,9 @@ import java.util.Date;
 @Table(name = "hotel")
 @Data@AllArgsConstructor
 @NoArgsConstructor
+
 public class Hotel {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name="id")

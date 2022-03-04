@@ -11,8 +11,10 @@ import javax.persistence.*;
 @Table(name = "staff")
 @AllArgsConstructor
 @NoArgsConstructor
-// Работник фирмы тур оператора
+
+
 public class Staff {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")

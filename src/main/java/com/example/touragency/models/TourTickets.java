@@ -12,8 +12,9 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-// Билеты на мероприятия, которые есть в туре(включены в путевку)
-    public class TourTickets {
+
+public class TourTickets {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")

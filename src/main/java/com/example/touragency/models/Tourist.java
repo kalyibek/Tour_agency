@@ -11,7 +11,9 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Tourist{
+
+public class Tourist {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name ="id")

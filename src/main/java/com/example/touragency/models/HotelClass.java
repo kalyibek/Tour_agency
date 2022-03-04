@@ -11,8 +11,9 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-// Класс обслуживания в номере
+
 public class HotelClass {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name ="id")

@@ -7,13 +7,15 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.util.Date;
 
-// Задания для составителя туров
+
 @Entity
 @Data
 @Table(name = "tour_tasks")
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class TourTasks {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
@@ -40,8 +42,5 @@ public class TourTasks {
     private String status;
     @Column(name="programm_number", columnDefinition = "INTEGER")
     private int programmNumber;
-
-
-
 
 }

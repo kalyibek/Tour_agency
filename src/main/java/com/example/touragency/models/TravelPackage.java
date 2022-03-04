@@ -12,7 +12,9 @@ import java.util.Date;
 @Table(name = "tour")
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class TravelPackage {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")

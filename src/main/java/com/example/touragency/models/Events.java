@@ -12,7 +12,9 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+
 public class Events {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")

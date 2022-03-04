@@ -11,6 +11,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+
 //Класс обслуживания в самолете
 public class ClassOfAirTickets {
     @Id

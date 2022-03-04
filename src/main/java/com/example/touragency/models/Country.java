@@ -11,7 +11,9 @@ import javax.persistence.*;
 @Table(name = "country")
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class Country {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
